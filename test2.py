@@ -3,11 +3,11 @@ import json
 client = OpenAI()
 
 prompt = f"""
-生成一个由三个虚构的订单信息所组成的列表，以JSON格式进行返回。
-JSON列表里的每个元素包含以下信息：
+生成一個由三個虛構的訂單信息所組成的列表，以JSON格式進行返回。
+JSON列表裡的每個元素包含以下信息：
 order_id、customer_name、order_item、phone。
 所有信息都是字符串。
-除了JSON之外，不要输出任何额外的文本。
+除了JSON之外，不要輸出任何額外的文本。
 """
 
 response = client.chat.completions.create(
