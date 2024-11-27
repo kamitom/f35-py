@@ -9,7 +9,7 @@ completion = client.chat.completions.create(
         {"role": "system", "content": "You are a helpful assistant."},
         {
             "role": "user",
-            "content": "我想知道2000年後的世界杯足球賽的歷年棒球冠軍名單."
+            "content": "我想知道2000年後的世界杯足球賽的歷年冠軍名單."
         }
     ],
     max_tokens=500
